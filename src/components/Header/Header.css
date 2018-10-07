@@ -1,0 +1,18 @@
+header {
+    background-color: grey;
+    color: white;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+header li {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+}
+
+header li:hover {
+    background-color: darkblue;
+}
+
+header a { color: #fff;}
