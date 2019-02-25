@@ -1,0 +1,129 @@
+:root {
+  --ku-blue: #0051ba;
+  --crimson: #e8000d;
+  --jayhawk-yellow: #ffc82d;
+  --signature-grey: #85898a;
+}
+
+html {
+  background: #d1d1d1;
+  font-size: 65.2%;
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 2.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: var(--ku-blue);
+  text-shadow: 2px 0px #000;
+  text-align: center;
+  line-height: 4rem;
+}
+
+h2 {
+  font-size: 4rem;
+  color: var(--crimson);
+  text-shadow: 1px 0 #000;
+  line-height: 3.5rem;
+  padding-left: 2rem;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  word-wrap: break-word;
+}
+
+h3 {
+  font-size: 3.5rem;
+  align-self: center;
+  justify-self: center;
+  line-height: 3rem;
+  text-shadow: 1px 1px var(--signature-grey);
+}
+header {
+  text-align: center;
+}
+
+p#subtitle {
+  font-size: 1.6rem;
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  background: #fff;
+  max-height: 30%;
+  max-width: 30%;
+  min-height: 30%;
+  min-width: 30%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 5px #000;
+  border: 1px solid #000;
+}
+
+section p {
+  background: #fff;
+  grid-area: bio;
+  box-shadow: 5px 5px 5px #000;
+  padding: 1rem;
+  margin: 2rem;
+  border: 1px solid #000;
+}
+
+section a,
+section a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+section p > a {
+  color: blue;
+}
+
+article {
+  background: #efefef;
+  border: 5px solid var(--jayhawk-yellow);
+  border-radius: 15px;
+  grid-row: 2 / -1;
+  margin: 1.5rem;
+  text-align: center;
+  box-shadow: 5px 5px 5px #000;
+}
+
+section {
+  background: #e1e1e1;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 5px solid #000;
+  border-bottom: 10px solid #000;
+  border-radius: 15px;
+  margin: 3rem;
+}
+
+section#bios {
+  display: block;
+}
+
+section h3 {
+  padding-left: 2rem;
+}
+
+article a,
+article a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 3rem;
+  }
+}

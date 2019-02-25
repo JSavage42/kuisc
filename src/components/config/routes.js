@@ -1,0 +1,9 @@
+export const HOME = "/";
+export const ABOUT = "/about";
+export const SPONSORS = "/sponsors";
+export const CALENDAR = "/calendar";
+export const NEWS = "/news";
+export const CODE_OF_CONDUCT = "/coc";
+export const SLACK = "https://jayhackers.slack.com/signup";
+export const TWITTER = "https://twitter.com/KUInfoSec";
+export const WIKI = "https://wiki.kuisc.com/doku.php";
