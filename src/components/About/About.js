@@ -1,6 +1,6 @@
 import React from "react";
-import * as email from "../config/emailAddresses";
-import * as officers from "../config/officers";
+import * as email from "../../config/emailAddresses";
+import * as officers from "../../config/officers";
 import "./About.css";
 
 const About = () => (

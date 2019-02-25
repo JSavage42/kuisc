@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-import * as routes from "../components/config/routes";
+import * as routes from "../config/routes";
 import PublicRoute from "./PublicRoute";
 import Home from "../components/Home/Home";
 import About from "../components/About/About";
