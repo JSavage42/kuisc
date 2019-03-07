@@ -1,10 +1,9 @@
 import React from "react";
-import * as email from "../../config/emailAddresses";
 import * as officers from "../../config/officers";
 import "./About.css";
 
 const About = () => (
-  <main>
+  <main className="about">
     <section className="about-purpose">
       <h2>Our Purpose</h2>
       <ul>
@@ -57,7 +56,9 @@ const About = () => (
           />
           <p>
             President -- Email:{" "}
-            <a href={`mailto:${email.LAW_PRES}`}>{email.LAW_PRES}</a>
+            <a href={`mailto:${officers.LAW_PRES_EMAIL}`}>
+              {officers.LAW_PRES_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -69,7 +70,9 @@ const About = () => (
           />
           <p>
             Vice President -- Email:{" "}
-            <a href={`mailto:${email.LAW_VICE}`}>{email.LAW_VICE}</a>
+            <a href={`mailto:${officers.LAW_VICE_EMAIL}`}>
+              {officers.LAW_VICE_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -81,7 +84,9 @@ const About = () => (
           />
           <p>
             Chief Technology Officer -- Email:{" "}
-            <a href={`mailto:${email.LAW_CTOF}`}>{email.LAW_CTOF}</a>
+            <a href={`mailto:${officers.LAW_CTOF_EMAIL}`}>
+              {officers.LAW_CTOF_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -92,8 +97,10 @@ const About = () => (
             title={officers.LAW_COMM}
           />
           <p>
-            Communication Specialist -- Email:{" "}
-            <a href={`mailto:${email.LAW_COMM}`}>{email.LAW_COMM}</a>
+            Communication Chair -- Email:{" "}
+            <a href={`mailto:${officers.LAW_COMM_EMAIL}`}>
+              {officers.LAW_COMM_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -105,7 +112,9 @@ const About = () => (
           />
           <p>
             Webmaster -- Email:{" "}
-            <a href={`mailto:${email.LAW_WEBM}`}>{email.LAW_WEBM}</a>
+            <a href={`mailto:${officers.LAW_WEBM_EMAIL}`}>
+              {officers.LAW_WEBM_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -116,8 +125,10 @@ const About = () => (
             title={officers.LAW_TREA}
           />
           <p>
-            Treasurer -- Email: Email:{" "}
-            <a href={`mailto:${email.LAW_TREA}`}>{email.LAW_TREA}</a>
+            Treasurer -- Email:{" "}
+            <a href={`mailto:${officers.LAW_TREA_EMAIL}`}>
+              {officers.LAW_TREA_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -129,7 +140,9 @@ const About = () => (
           />
           <p>
             Expo Chair -- Email:{" "}
-            <a href={`mailto:${email.LAW_EXPO}`}>{email.LAW_EXPO}</a>
+            <a href={`mailto:${officers.LAW_EXPO_EMAIL}`}>
+              {officers.LAW_EXPO_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -153,7 +166,9 @@ const About = () => (
           />
           <p>
             President -- Email:{" "}
-            <a href={`mailto:${email.EDW_PRES}`}>{email.EDW_PRES}</a>
+            <a href={`mailto:${officers.EDW_PRES_EMAIL}`}>
+              {officers.EDW_PRES_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -165,7 +180,9 @@ const About = () => (
           />
           <p>
             Vice President -- Email:{" "}
-            <a href={`mailto:${email.EDW_VICE}`}>{email.EDW_VICE}</a>
+            <a href={`mailto:${officers.EDW_VICE_EMAIL}`}>
+              {officers.EDW_VICE_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -177,7 +194,9 @@ const About = () => (
           />
           <p>
             Chief Technology Officer -- Email:{" "}
-            <a href={`mailto:${email.EDW_CTOF}`}>{email.EDW_CTOF}</a>
+            <a href={`mailto:${officers.EDW_CTOF_EMAIL}`}>
+              {officers.EDW_CTOF_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -189,7 +208,9 @@ const About = () => (
           />
           <p>
             Communication Chair -- Email:{" "}
-            <a href={`mailto:${email.EDW_COMM}`}>{email.EDW_COMM}</a>
+            <a href={`mailto:${officers.EDW_COMM_EMAIL}`}>
+              {officers.EDW_COMM_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -201,7 +222,9 @@ const About = () => (
           />
           <p>
             Webmaster -- Email:{" "}
-            <a href={`mailto:${email.EDW_WEBM}`}>{email.EDW_WEBM}</a>
+            <a href={`mailto:${officers.EDW_WEBM_EMAIL}`}>
+              {officers.EDW_WEBM_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">
@@ -213,7 +236,9 @@ const About = () => (
           />
           <p>
             Treasurer -- Email:{" "}
-            <a href={`mailto:${email.EDW_TREA}`}>{email.EDW_TREA}</a>
+            <a href={`mailto:${officers.EDW_TREA_EMAIL}`}>
+              {officers.EDW_TREA_EMAIL}
+            </a>
           </p>
         </article>
         <article className="about-officers --officer">

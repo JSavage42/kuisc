@@ -1,18 +1,21 @@
 header {
-    background-color: grey;
-    color: white;
-    font-size: 1.6rem;
-    display: flex;
-    justify-content: space-around;
+  background-color: #091534;
+  color: white;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 header li {
-    display: inline-block;
-    padding: 1rem 1.5rem;
+  display: inline-block;
+  padding: 2rem 1.5rem;
 }
 
 header li:hover {
-    background-color: darkblue;
+  background-color: #3e5185;
 }
 
-header a { color: #fff;}
+header a {
+  color: #fff;
+  font-weight: 900;
+}

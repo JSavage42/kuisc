@@ -1,4 +1,4 @@
-main li {
+.about li {
   padding: 0.25rem;
   margin-left: 3rem;
 }
@@ -10,18 +10,46 @@ main li {
 }
 
 .about h2 {
+  color: #fff;
   grid-column: 1/ -1;
   text-align: center;
   font-size: 4rem;
+  text-shadow: 5px 1px #000;
 }
 
 .about h3 {
-  color: red;
+  color: #e8000d;
   font-size: 3rem;
-  text-shadow: 1px 1px #000;
   grid-column: 1 /-1;
   grid-row: 1/2;
   text-align: center;
+}
+
+.about-purpose {
+  background: #091534;
+  color: #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 5px solid #fff;
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.about-purpose a {
+  color: #fff;
+}
+
+.about-purpose ul {
+  list-style: none;
+}
+
+.about-purpose ul li::before {
+  content: "\2022";
+  color: #e8000d;
+  font-weight: 500;
+  font-size: 3rem;
+  display: inline-block;
+  width: 2rem;
+  margin-left: 0.5rem;
 }
 
 .about-officers.--edwards,
@@ -33,14 +61,19 @@ main li {
 
 .about-officers.--officer {
   display: grid;
+  background: #091534;
+  color: #fff;
   grid-template-rows: 1fr 4fr 1fr;
-  border-right: 2px solid #000;
-  border-left: 1px solid #000;
-  border-top: 1px solid #000;
-  border-bottom: 5px solid #000;
+  /* border-right: 1px solid #fff;
+  border-bottom: 4px solid #fff; */
   border-radius: 1.5rem;
+  box-shadow: 5px 5px 1px #fff;
   margin: 2rem 0;
   width: 30rem;
+}
+
+.about-officers.--officer a {
+  color: #fff;
 }
 
 .about-officers.--officer p {
@@ -51,8 +84,7 @@ main li {
 
 .about-officers img {
   padding: 5px;
-  border: 1px solid #000;
-  box-shadow: 5px 5px 5px #000;
+  border: 1px solid #fff;
   margin-bottom: 3rem;
   max-width: 50%;
   grid-row: 2/3;

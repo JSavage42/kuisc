@@ -1,11 +1,11 @@
 /* *** Lawrence *** */
-import law_pres from "../assets/images/law_pres.jpg";
-import law_vice from "../assets/images/law_vice.png";
+import law_pres from "../assets/images/law_pres.JPG";
+import law_vice from "../assets/images/law_vice.jpg";
 import law_expo from "../assets/images/law_expo.jpg";
-import law_ctof from "../assets/images/law_ctof.jpg";
+import law_ctof from "../assets/images/law_ctof.png";
 import law_comm from "../assets/images/law_comm.jpg";
 import law_webm from "../assets/images/law_webm.jpg";
-import law_trea from "../assets/images/law_trea.JPG";
+import law_trea from "../assets/images/law_trea.jpg";
 import law_scri from "../assets/images/law_scri.jpg";
 
 /* *** Edwards *** */

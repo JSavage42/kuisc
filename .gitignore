@@ -9,7 +9,11 @@
 # production
 /build
 
+# old site
+/oldsite
+
 # misc
+.vscode
 .DS_Store
 .env.local
 .env.development.local

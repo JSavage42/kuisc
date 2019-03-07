@@ -1,0 +1,50 @@
+.coc {
+  background: #091534;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border-right: 2px solid #fff;
+  border-bottom: 5px solid #fff;
+  border-radius: 1.5rem;
+  margin: 2rem;
+}
+
+.coc h2 {
+  color: #fff;
+  grid-column: 1/ -1;
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 5px 1px #000;
+}
+
+.coc h3 {
+  color: #e8000d;
+  font-size: 3rem;
+  grid-column: 1 /-1;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+.coc p {
+  font-size: 2rem;
+}
+
+.coc ul {
+  margin-left: 1rem;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.coc li > ul {
+  margin-left: 2rem;
+}
+
+.coc ul li::before {
+  content: "\2022";
+  color: #e8000d;
+  font-weight: 500;
+  font-size: 3rem;
+  display: inline-block;
+  width: 2rem;
+  margin-left: 0.5rem;
+}

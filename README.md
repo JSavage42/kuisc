@@ -1,15 +1,11 @@
 # KUISC Website
 
-## To Develop
+## To Edit
 
-`git clone https://github.com/JSavage42/kuisc.git`
-`npm i`
+To change officers edit the `/config/officers.js` **ONLY**. The javascript will handle the rest.
 
-Be sure you create a new branch before pushing to GitHub.
-All pull requests will be approved by Me.
+Be sure to name the headshots accordingly.
 
-## To Run Locally
+## Naming Conventions
 
-`npm start`
-
-This will open a browser tab in your default browser and refresh automatically when you save changes to a file.
+To add or replace an officer rename their photo to [law/edw]-title.[jpg/png]. You may have to change `/config/pics.js` to edit the extension.

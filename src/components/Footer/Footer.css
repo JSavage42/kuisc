@@ -1,10 +1,13 @@
 footer {
-    background-color: gray;
-    font-size: 1.6rem;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 1rem;
+  background-color: #091534;
+  font-size: 1.6rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
 }
 
-footer a { color: #fff;}
+footer a,
+footer small {
+  color: #fff;
+}
