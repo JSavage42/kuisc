@@ -17,6 +17,7 @@ header a {
 }
 
 header a:hover {
+  color: var(--header-a-hover-color);
   text-decoration: underline;
   font-weight: 900;
 }
