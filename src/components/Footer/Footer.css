@@ -1,5 +1,5 @@
 footer {
-  background-color: #091534;
+  background-color: var(--footer-background);
   font-size: 1.6rem;
   text-align: center;
   display: flex;
@@ -9,5 +9,5 @@ footer {
 
 footer a,
 footer small {
-  color: #fff;
+  color: var(--footer-font-color);
 }

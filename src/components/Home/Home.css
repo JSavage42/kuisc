@@ -1,24 +1,22 @@
 .home {
-  background: #091534;
-  color: #fff;
+  background: var(--card-background);
+  color: var(--font-color);
   font-size: 1.6rem;
-  padding: 1rem;
-  border-right: 2px solid #fff;
-  border-bottom: 5px solid #fff;
+  border-right: var(--box-border-right);
+  border-bottom: var(--box-border-bottom);
   border-radius: 1.5rem;
-  margin: 2rem;
 }
 
 .home h2 {
-  color: #fff;
+  color: var(--h2-color);
   grid-column: 1/ -1;
   text-align: center;
   font-size: 4rem;
-  text-shadow: 5px 1px #000;
+  text-shadow: var(--h2-text-shadow);
 }
 
 .home h3 {
-  color: #e8000d;
+  color: var(--h3-color);
   font-size: 3rem;
   grid-column: 1 /-1;
   grid-row: 1/2;

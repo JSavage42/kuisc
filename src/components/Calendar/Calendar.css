@@ -1,5 +1,6 @@
 main#calendar {
   height: 80rem;
+  margin: 5rem;
 }
 
 main#calendar embed {

@@ -13,7 +13,7 @@ const Header = () => (
         </Link>
       ))}
       {a.map(l => (
-        <a href={l.path} key={l.name}>
+        <a href={l.path} key={l.name} target="_blank">
           <li>{l.name}</li>
         </a>
       ))}
