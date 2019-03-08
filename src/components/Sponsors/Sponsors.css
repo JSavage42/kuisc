@@ -41,7 +41,7 @@
 }
 
 .sponsors-officers.--officer a {
-  color: var(--font-color);
+  color: var(--officer-card-font-color);
 }
 
 .sponsors-officers.--officer a:hover {
@@ -51,7 +51,7 @@
 .sponsors-officers.--officer {
   display: grid;
   background: var(--officer-card-background);
-  color: var(--font-color);
+  color: var(--officer-card-font-color);
   grid-template-rows: 1fr 4fr 1fr;
   border-right: var(--box-border-right);
   border-bottom: var(--box-border-bottom);
@@ -61,10 +61,8 @@
 }
 
 .sponsors-officers.--officer p {
-  font-size: 1.2rem;
   grid-row: -1/-2;
   text-align: center;
-  color: var(--font-color);
 }
 
 .sponsors-officers img {

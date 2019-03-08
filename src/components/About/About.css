@@ -68,7 +68,7 @@
 .about-officers.--officer {
   display: grid;
   background: var(--officer-card-background);
-  color: var(--font-color);
+  color: var(--officer-card-font-color);
   grid-template-rows: 1fr 4fr 1fr;
   /* border-right: 1px solid #fff;
   border-bottom: 4px solid #fff; */
@@ -87,8 +87,6 @@
 }
 
 .about-officers.--officer p {
-  color: var(--font-color);
-  font-size: 1.2rem;
   grid-row: -1/-2;
   text-align: center;
 }
