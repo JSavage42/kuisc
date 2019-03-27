@@ -1,9 +1,8 @@
 :root {
-  --background: #f9f9f9;
-  --card-background: #f9f9f9;
-  --officer-card-background: #f9f9f9;
+  --background: #dadada;
+  --officer-card-background: #dadada;
   --officer-card-font-color: #000;
-  --nav-header-background: #bbbbbb;
+  --nav-header-background: #777;
   --nav-header-font-color: #000;
   --nav-header-a-hover-color: #fff;
   --nav-header-li-hover-background-color: #0051ba;
@@ -17,7 +16,7 @@
   --bullet-color: #e8000d;
   --link-color: #000;
   --h2-text-shadow: 2px 1px #000;
-  --h3-text-shadow: 2px 1px #000;
+  --h3-text-shadow: 1px 1px #000;
   --box-shadow: none;
   --box-border-right: none;
   --box-border-bottom: none;
@@ -72,7 +71,7 @@ button:disabled {
 
 .is-active {
   font-weight: bold;
-  background: var(--card-background);
+  background: var(--background);
   border-left: 1px solid #000;
   border-right: 1px solid #000;
 }
