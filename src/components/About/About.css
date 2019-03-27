@@ -47,6 +47,10 @@
   list-style: none;
 }
 
+.about-purpose ul li ul {
+  margin-left: 3rem;
+}
+
 .about-purpose ul li::before {
   content: "\2022";
   color: var(--bullet-color);
