@@ -1,8 +1,8 @@
-import React from "react";
-import { NavLink as Link } from "react-router-dom";
-import "./Header.css";
-import links from "../../config/headerlinks";
-import a from "../../config/externallinks";
+import React from 'react';
+import { NavLink as Link } from 'react-router-dom';
+import './Header.css';
+import links from '../../config/headerlinks';
+import a from '../../config/externallinks';
 import jayhackersLogoWings from '../../assets/images/jayhackersLogoWings.png';
 
 const Header = () => (
@@ -16,7 +16,7 @@ const Header = () => (
           </Link>
         ))}
         {a.map(l => (
-          <a href={l.path} key={l.name} target="_blank">
+          <a href={l.path} key={l.name} target="_blank" rel="noopener noreferrer">
             <li>{l.name}</li>
           </a>
         ))}
