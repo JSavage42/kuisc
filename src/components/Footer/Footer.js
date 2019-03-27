@@ -11,7 +11,7 @@ const Footer = () => (
             <a href="mailto:president@kuisc.com">Contact the President</a>
         </div>
         <div>
-            <small>Copyright &copy; KUISC, 2018</small>
+            <small>Copyright &copy; KUISC, 2019</small>
         </div>
     </footer>
 );

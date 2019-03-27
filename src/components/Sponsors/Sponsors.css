@@ -6,16 +6,12 @@
 .sponsors-section {
   background: var(--card-background);
   color: var(--font-color);
-  border-right: var(--box-border-right);
-  border-bottom: var(--box-border-bottom);
-  border-radius: 1.5rem;
   padding: 1rem 2rem;
 }
 
 .sponsors h2 {
   color: var(--h2-color);
   text-shadow: var(--h2-text-shadow);
-  grid-column: 1/ -1;
   text-align: center;
   font-size: 4rem;
 }
@@ -23,8 +19,6 @@
 .sponsors h3 {
   color: var(--h3-color);
   font-size: 3rem;
-  grid-column: 1 /-1;
-  grid-row: 1/2;
   text-align: center;
 }
 
@@ -53,9 +47,6 @@
   background: var(--officer-card-background);
   color: var(--officer-card-font-color);
   grid-template-rows: 1fr 4fr 1fr;
-  border-right: var(--box-border-right);
-  border-bottom: var(--box-border-bottom);
-  border-radius: 1.5rem;
   margin: 2rem 0;
   width: 30rem;
 }

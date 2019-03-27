@@ -1,25 +1,29 @@
 :root {
   --background: #f9f9f9;
-  --card-background: #0051ba;
+  --card-background: #f9f9f9;
   --officer-card-background: #f9f9f9;
   --officer-card-font-color: #000;
-  --header-background: #85898a;
-  --header-font-color: #000;
-  --header-a-hover-color: #ffc82d;
+  --nav-header-background: #bbbbbb;
+  --nav-header-font-color: #000;
+  --nav-header-a-hover-color: #fff;
+  --nav-header-li-hover-background-color: #0051ba;
+  --nav-header-li-hover-font-color: #000;
   --footer-background: #000;
   --footer-font-color: #fff;
-  --font-color: #fff;
+  --font-color: #000;
   --h1-color: #000;
-  --h2-color: #fff;
+  --h2-color: #0051ba;
   --h3-color: #e8000d;
   --bullet-color: #e8000d;
   --link-color: #000;
   --h2-text-shadow: 2px 1px #000;
   --h3-text-shadow: 2px 1px #000;
-  --box-shadow: 5px 5px 1px #000;
-  --box-border-right: 2px solid #000;
-  --box-border-bottom: 5px solid #000;
+  --box-shadow: none;
+  --box-border-right: none;
+  --box-border-bottom: none;
   --h2-border-bottom: 3px solid #000;
+  --hero-background-color: none;
+  --hero-font-color: #000;
 }
 
 * {
@@ -68,6 +72,9 @@ button:disabled {
 
 .is-active {
   font-weight: bold;
+  background: var(--card-background);
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
 }
 
 .container {
@@ -77,14 +84,10 @@ button:disabled {
 }
 
 main {
-  margin: 2rem 10rem;
-  padding: 2rem;
+  margin: 1rem 0;
+  padding: 1.5rem;
   font-size: 1.8rem;
   max-width: 100vw;
-}
-
-h2 {
-  border-bottom: var(--h2-border-bottom);
 }
 
 h3 {

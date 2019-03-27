@@ -1,10 +1,14 @@
 import React from "react";
+import jayhawkImg from '../../assets/images/jayHawk.png';
 import "./Home.css";
 
 const Home = () => (
   <main className="home">
     <section>
-      <h2>KU Information Security Club</h2>
+      <header className="hero">
+        <h2>KU Information Security Club</h2>
+        <img src={jayhawkImg} alt="Jayhawk" />
+      </header>
       <h3>Speakers From the Industry</h3>
       <p>
         We bring in a variety of speakers from industry to talk about the work
