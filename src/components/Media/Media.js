@@ -5,9 +5,8 @@ import Argonne2 from '../../assets/images/competitions/2018Argonne2.jpg';
 import ALCCDC1 from '../../assets/images/competitions/2019ALCCDC.jpg';
 import ALCCDC2 from '../../assets/images/competitions/2019ALCCDC2.jpg';
 import JayhackerIWD1 from '../../assets/images/competitions/2019jayhackersIWD.jpg';
-import JayhackerIWD2 from '../../assets/images/competitions/2019jayhackersIWD2.jpg';
 
-const imgUrls = [Argonne1, Argonne2, ALCCDC1, ALCCDC2, JayhackerIWD1, JayhackerIWD2];
+const imgUrls = [Argonne1, Argonne2, ALCCDC1, ALCCDC2, JayhackerIWD1];
 
 class Gallery extends React.Component {
   constructor(props) {
