@@ -10,6 +10,7 @@ import Sponsors from '../components/Sponsors/Sponsors';
 import NotFoundPage from '../components/NotFoundPage/NotFoundPage';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
+import Media from '../components/Media/Media';
 
 const AppRouter = () => (
   <Router>
@@ -18,6 +19,7 @@ const AppRouter = () => (
       <Switch>
         <Route path={routes.HOME} component={Home} exact />
         <Route path={routes.ABOUT} component={About} exact />
+        <Route path={routes.MEDIA} component={Media} exact />
         <Route path={routes.CALENDAR} component={Calendar} exact />
         <Route path={routes.CODE_OF_CONDUCT} component={COC} exact />
         <Route path={routes.NEWS} component={News} exact />

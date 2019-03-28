@@ -1,5 +1,6 @@
 export const HOME = "/";
 export const ABOUT = "/about";
+export const MEDIA = "/media";
 export const SPONSORS = "/sponsors";
 export const CALENDAR = "/calendar";
 export const NEWS = "/news";
