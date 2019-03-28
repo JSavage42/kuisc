@@ -11,7 +11,7 @@ const Header = () => (
     <nav>
       <ul>
         {links.map(l => (
-          <Link to={l.path} key={l.name} activeClassName="is-active">
+          <Link exact to={l.path} key={l.name} activeClassName="is-active">
             <li>{l.name}</li>
           </Link>
         ))}

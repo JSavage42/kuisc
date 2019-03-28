@@ -6,7 +6,6 @@
   color: var(--h2-color);
   text-align: center;
   font-size: 4rem;
-  text-shadow: var(--h2-text-shadow);
 }
 
 .coc h3 {

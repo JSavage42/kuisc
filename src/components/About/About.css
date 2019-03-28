@@ -19,7 +19,6 @@
   grid-column: 1/ -1;
   text-align: center;
   font-size: 4rem;
-  text-shadow: var(--h2-text-shadow);
 }
 
 .about h3 {
@@ -31,10 +30,7 @@
 }
 
 .about-purpose {
-  background: var(--card-background);
   color: var(--font-color);
-  border-right: var(--box-border-right);
-  border-bottom: var(--box-border-bottom);
   border-radius: 1.5rem;
   padding: 1rem 2rem;
 }
@@ -68,7 +64,6 @@
 
 .about-officers.--officer {
   display: grid;
-  background: var(--officer-card-background);
   color: var(--officer-card-font-color);
   grid-template-rows: 1fr 4fr 1fr;
   margin: 2rem 0;

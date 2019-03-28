@@ -4,14 +4,12 @@
 }
 
 .sponsors-section {
-  background: var(--card-background);
   color: var(--font-color);
   padding: 1rem 2rem;
 }
 
 .sponsors h2 {
   color: var(--h2-color);
-  text-shadow: var(--h2-text-shadow);
   text-align: center;
   font-size: 4rem;
 }
@@ -44,8 +42,6 @@
 
 .sponsors-officers.--officer {
   display: grid;
-  background: var(--officer-card-background);
-  color: var(--officer-card-font-color);
   grid-template-rows: 1fr 4fr 1fr;
   margin: 2rem 0;
   width: 30rem;
