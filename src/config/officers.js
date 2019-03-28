@@ -52,9 +52,9 @@ export const EDW_TREA_PIC = pics.EDW_TREA;
 export const EDW_SCRI_PIC = pics.EDW_SCRI;
 
 /* Emails */
-export const EDW_PRES_EMAIL = "bist@kuisc.com";
-export const EDW_VICE_EMAIL = "bist_vp@kuisc.com";
-export const EDW_CTOF_EMAIL = "bist_cto@kuisc.com";
-export const EDW_COMM_EMAIL = "bist_cc@kuisc.com";
-export const EDW_WEBM_EMAIL = "bist_web@kuisc.com";
-export const EDW_TREA_EMAIL = "bist_trea@kuisc.com";
+export const EDW_PRES_EMAIL = "bsit@kuisc.com";
+export const EDW_VICE_EMAIL = "bsit_vp@kuisc.com";
+export const EDW_CTOF_EMAIL = "bsit_cto@kuisc.com";
+export const EDW_COMM_EMAIL = "bsit_cc@kuisc.com";
+export const EDW_WEBM_EMAIL = "bsit_web@kuisc.com";
+export const EDW_TREA_EMAIL = "bsit_trea@kuisc.com";
