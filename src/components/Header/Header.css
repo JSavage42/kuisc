@@ -35,7 +35,7 @@ header nav li {
 
 header nav li:hover {
   background: var(--nav-header-li-hover-background-color);
-  box-shadow: 0px 5px 2px #000;
+  border-bottom: var(--nav-header-li-hover-border);
 }
 
 header nav li:hover a {
