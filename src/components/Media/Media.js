@@ -20,7 +20,7 @@ class Gallery extends React.Component {
   renderImageContent(src, index) {
     return (
       <div onClick={e => this.openModal(e, index)}>
-        <img src={src} key={src} />
+        <img src={src} key={src} alt="Jayhackers" />
       </div>
     );
   }
@@ -28,13 +28,13 @@ class Gallery extends React.Component {
     this.setState({ currentIndex: index });
   }
   closeModal(e) {
-    if (e != undefined) {
+    if (e !== undefined) {
       e.preventDefault();
     }
     this.setState({ currentIndex: null });
   }
   findPrev(e) {
-    if (e != undefined) {
+    if (e !== undefined) {
       e.preventDefault();
     }
     this.setState(prevState => ({
@@ -42,7 +42,7 @@ class Gallery extends React.Component {
     }));
   }
   findNext(e) {
-    if (e != undefined) {
+    if (e !== undefined) {
       e.preventDefault();
     }
     this.setState(prevState => ({
@@ -89,7 +89,6 @@ class GalleryModal extends React.Component {
   render() {
     const { closeModal, hasNext, hasPrev, findNext, findPrev, src } = this.props;
     if (!src) {
-      console.log('whut');
       return null;
     }
     return (
@@ -97,20 +96,20 @@ class GalleryModal extends React.Component {
         <div className="modal-overlay" onClick={closeModal} />
         <div isOpen={!!src} className="modal">
           <div className="modal-body">
-            <a href="#" className="modal-close" onClick={closeModal} onKeyDown={this.handleKeyDown}>
+            <button href="#" className="modal-close" onClick={closeModal} onKeyDown={this.handleKeyDown}>
               &times;
-            </a>
+            </button>
             {hasPrev && (
-              <a href="#" className="modal-prev" onClick={findPrev} onKeyDown={this.handleKeyDown}>
+              <button href="#" className="modal-prev" onClick={findPrev} onKeyDown={this.handleKeyDown}>
                 &lsaquo;
-              </a>
+              </button>
             )}
             {hasNext && (
-              <a href="#" className="modal-next" onClick={findNext} onKeyDown={this.handleKeyDown}>
+              <button href="#" className="modal-next" onClick={findNext} onKeyDown={this.handleKeyDown}>
                 &rsaquo;
-              </a>
+              </button>
             )}
-            <img src={src} />
+            <img src={src} alt="Jayhackers" />
           </div>
         </div>
       </div>

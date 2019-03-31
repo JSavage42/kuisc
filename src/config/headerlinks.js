@@ -7,5 +7,4 @@ export default [
   { name: "Sponsors", path: routes.SPONSORS },
   { name: "Calendar", path: routes.CALENDAR },
   { name: "News", path: routes.NEWS },
-  { name: "Code of Conduct", path: routes.CODE_OF_CONDUCT }
 ];

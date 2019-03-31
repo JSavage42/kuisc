@@ -1,6 +1,7 @@
 import React from "react";
 import * as officers from "../../config/officers";
 import "./About.css";
+import Coc from '../COC/coc';
 
 const About = () => (
   <main className="about">
@@ -26,9 +27,9 @@ const About = () => (
       <ul>
         <li>
           We host bi-weekly meetings. All of our meetings are open to everyone,
-          so anyone is more that welcome to attend and get involved.
+          so anyone is more that welcome to attend and get involved. Check the calendar for dates.
           <ul>
-            <li>Lawrence: [LOCATION] from [TIME] on [DAY]</li>
+            <li>Lawrence: 1005C from 7:00PM on Thursdays</li>
             <li>Edwards: BEST 135 from 5pm to 6pm on Wednesdays</li>
           </ul>
         </li>
@@ -249,6 +250,9 @@ const About = () => (
         />
         <p>Scribe</p>
       </article>
+    </section>
+    <section id="coc">
+      <Coc />
     </section>
   </main>
 );

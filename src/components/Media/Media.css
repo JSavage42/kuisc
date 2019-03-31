@@ -86,7 +86,8 @@
   left: 0;
 }
 
-.modal-body a {
+.modal-body button {
+  border: none;
   position: absolute;
   display: inline;
   color: var(--black);
