@@ -6,5 +6,5 @@ export default [
   { name: "Media", path: routes.MEDIA },
   { name: "Sponsors", path: routes.SPONSORS },
   { name: "Calendar", path: routes.CALENDAR },
-  { name: "News", path: routes.NEWS },
+  { name: "News", path: routes.NEWS }
 ];

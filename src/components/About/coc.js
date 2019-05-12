@@ -2,7 +2,7 @@ import React from "react";
 import "./coc.css";
 
 const COC = () => (
-  <main className="coc">
+  <section id="coc" className="coc">
     <h2>Code of Conduct</h2>
     <h3>Summary</h3>
     <p>
@@ -36,7 +36,9 @@ const COC = () => (
       <li>Be friendly to all</li>
       <li>
         Be welcoming to all
-        <li>Encourage each other to do their best.</li>
+        <ul>
+          <li>Encourage each other to do their best.</li>
+        </ul>
       </li>
       <li>
         Be patient
@@ -78,7 +80,7 @@ const COC = () => (
         </ul>
       </li>
     </ul>
-  </main>
+  </section>
 );
 
 export default COC;

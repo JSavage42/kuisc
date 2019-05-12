@@ -21,14 +21,6 @@
   font-size: 4rem;
 }
 
-.about h3 {
-  color: var(--h3-color);
-  font-size: 3rem;
-  grid-column: 1 /-1;
-  grid-row: 1/2;
-  text-align: center;
-}
-
 .about-purpose {
   color: var(--font-color);
   border-radius: 1.5rem;
@@ -48,7 +40,7 @@
 }
 
 .about-purpose ul li::before {
-  content: "\2022";
+  content: '\2022';
   color: var(--bullet-color);
   font-weight: 500;
   font-size: 3rem;
@@ -59,37 +51,11 @@
 
 .about-officers {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
 }
 
 .about-officers.--officer {
   display: grid;
-  color: var(--officer-card-font-color);
-  grid-template-rows: 1fr 4fr 1fr;
   margin: 2rem 0;
   width: 30rem;
-}
-
-.about-officers.--officer a {
-  color: var(--link-color);
-}
-
-.about-officers.--officer a:hover {
-  text-decoration: underline;
-}
-
-.about-officers.--officer p {
-  grid-row: -1/-2;
-  text-align: center;
-}
-
-.about-officers img {
-  padding: 5px;
-  border: 1px solid #000;
-  margin-bottom: 3rem;
-  max-width: 50%;
-  grid-row: 2/3;
-  grid-column: 1/-1;
-  align-self: center;
-  justify-self: center;
 }

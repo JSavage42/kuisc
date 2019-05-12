@@ -1,5 +1,6 @@
 .coc {
   padding: 1rem 10rem;
+  overflow: visible;
 }
 
 .coc h2 {
@@ -29,11 +30,17 @@
 }
 
 .coc ul li::before {
-  content: "\2022";
+  content: '\2022';
   color: var(--bullet-color);
   font-weight: 500;
   font-size: 3rem;
   display: inline-block;
   width: 2rem;
   margin-left: 0.5rem;
+}
+
+@media (max-width: 850px) {
+  .coc {
+    padding: 0.25rem;
+  }
 }

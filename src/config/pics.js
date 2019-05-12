@@ -16,6 +16,7 @@ import edw_comm from "../assets/images/edw_comm.png";
 import edw_webm from "../assets/images/edw_webm.png";
 import edw_trea from "../assets/images/edw_trea.png";
 import edw_scri from "../assets/images/edw_scri.jpg";
+import edw_advi from "../assets/images/edw_advi.jpg";
 
 /* *** Pictures *** */
 
@@ -37,3 +38,4 @@ export const EDW_COMM = edw_comm;
 export const EDW_WEBM = edw_webm;
 export const EDW_TREA = edw_trea;
 export const EDW_SCRI = edw_scri;
+export const EDW_ADVI = edw_advi;
