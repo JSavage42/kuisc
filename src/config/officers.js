@@ -39,12 +39,12 @@ export const LAW_WEBM_EMAIL = `webmaster@kuisc.com`;
 export const LAW_TREA_EMAIL = `treasurer@kuisc.com`;
 
 /* Bios */
-export const LAW_PRES_BIO = `A very tall Giraffe`;
+export const LAW_PRES_BIO = `Bio for This Person`
 export const LAW_VICE_BIO = `Bio for This Person`;
 export const LAW_CTOF_BIO = `My name is Sagindyk, everybody just calls me Sandy. Currently, I am a Computer Science undergraduate student at University of Kansas. I am a huge fan of UNIX philosophy and Linux tools in general. Wield the power of the terminal with awk, sed, and grep! I have interests in cyber-security, DevOps, Software Development, System Automation, Data Science, and Typesetting tools. I am the current active CTO at KU Information Security Club.`;
-export const LAW_EXPO_BIO = `A mean Ostrich`;
+export const LAW_EXPO_BIO = `Bio for This Person`
 export const LAW_COMM_BIO = `Bio for This Person`;
-export const LAW_WEBM_BIO = `A hungry panda`;
+export const LAW_WEBM_BIO = `Bio for This Person`
 export const LAW_TREA_BIO = `Bio for This Person`;
 export const LAW_SCRI_BIO = `Bio for This Person`;
 
@@ -107,48 +107,45 @@ export const EDW_PRES = `Madi Schulte`;
 export const EDW_VICE = `Hannah West`;
 export const EDW_CTOF = `Matt Loo`;
 export const EDW_COMM = `Chloe Harrington`;
-export const EDW_WEBM = `Jason Savage`;
+export const EDW_WEBM = `Webmaster`;
 export const EDW_TREA = `Elly Richardson`;
 export const EDW_SCRI = `Cooper Mahring`;
 
 /* *** Names *** */
-const EDW_PRES_NAME = `Madi Schulte`;
-const EDW_VICE_NAME = `Hannah West`;
-const EDW_CTOF_NAME = `Matt Loo`;
-const EDW_COMM_NAME = `Chloe Harrington`;
-const EDW_WEBM_NAME = `Jason Savage`;
-const EDW_TREA_NAME = `Elly Richardson`;
-const EDW_SCRI_NAME = `Cooper Mahring`;
-const EDW_ADVI_NAME = `Chris Seasholtz`;
+export const EDW_PRES_NAME = `Madi Schulte`;
+export const EDW_VICE_NAME = `Hannah West`;
+export const EDW_CTOF_NAME = `Matt Loo`;
+export const EDW_COMM_NAME = `Chloe Harrington`;
+export const EDW_WEBM_NAME = `Webmaster`;
+export const EDW_TREA_NAME = `Elly Richardson`;
+export const EDW_SCRI_NAME = `Cooper Mahring`;
+export const EDW_ADVI_NAME = `Chris Seasholtz`;
 
 /* *** Pictures *** */
-const EDW_PRES_PIC = pics.EDW_PRES;
-const EDW_VICE_PIC = pics.EDW_VICE;
-const EDW_CTOF_PIC = pics.EDW_CTOF;
-const EDW_COMM_PIC = pics.EDW_COMM;
-const EDW_WEBM_PIC = pics.EDW_WEBM;
-const EDW_TREA_PIC = pics.EDW_TREA;
-const EDW_SCRI_PIC = pics.EDW_SCRI;
-const EDW_ADVI_PIC = pics.EDW_ADVI;
+export const EDW_PRES_PIC = pics.EDW_PRES;
+export const EDW_VICE_PIC = pics.EDW_VICE;
+export const EDW_CTOF_PIC = pics.EDW_CTOF;
+export const EDW_COMM_PIC = pics.EDW_COMM;
+export const EDW_WEBM_PIC = pics.EDW_WEBM;
+export const EDW_TREA_PIC = pics.EDW_TREA;
+export const EDW_SCRI_PIC = pics.EDW_SCRI;
+export const EDW_ADVI_PIC = pics.EDW_ADVI;
 
 /* Emails */
-const EDW_PRES_EMAIL = `bsit@kuisc.com`;
-const EDW_VICE_EMAIL = `bsit_vp@kuisc.com`;
-const EDW_CTOF_EMAIL = `bsit_cto@kuisc.com`;
-const EDW_COMM_EMAIL = `bsit_cc@kuisc.com`;
-const EDW_WEBM_EMAIL = `bsit_web@kuisc.com`;
-const EDW_TREA_EMAIL = `bsit_trea@kuisc.com`;
-const EDW_ADVI_EMAIL = `chris@ku.edu`;
+export const EDW_PRES_EMAIL = `bsit@kuisc.com`;
+export const EDW_VICE_EMAIL = `bsit_vp@kuisc.com`;
+export const EDW_CTOF_EMAIL = `bsit_cto@kuisc.com`;
+export const EDW_ADVI_EMAIL = `chris@ku.edu`;
 
 /* Bios */
-const EDW_PRES_BIO = `Bio for This Person`;
-const EDW_VICE_BIO = `Bio for This Person`;
-const EDW_CTOF_BIO = `Bio for This Person`;
-const EDW_COMM_BIO = `Bio for This Person`;
-const EDW_WEBM_BIO = `I am a former President of KUISC at Edwards. I have competed in a few competitions for Edwards. I have a wife and two kids and one on the way! I graduate in May and will be working for Cerner as a Software Engineer. I love React, HTML/CSS, vanilla javascript and all things web. I'm always looking for more to learn about web development`;
-const EDW_TREA_BIO = `Bio for This Person`;
-const EDW_SCRI_BIO = `Bio for This Person`;
-const EDW_ADVI_BIO = `Bio for this person`;
+export const EDW_PRES_BIO = `Bio for This Person`;
+export const EDW_VICE_BIO = `Bio for This Person`;
+export const EDW_CTOF_BIO = `Bio for This Person`;
+export const EDW_COMM_BIO = `Bio for This Person`;
+export const EDW_WEBM_BIO = `Bio for This Person`;
+export const EDW_TREA_BIO = `Bio for This Person`;
+export const EDW_SCRI_BIO = `Bio for This Person`;
+export const EDW_ADVI_BIO = `Bio for this person`;
 
 
 export const EDW_OBJ = [{
@@ -177,21 +174,21 @@ export const EDW_OBJ = [{
     title: 'Communications Officer',
     name: EDW_COMM_NAME,
     pic: EDW_COMM_PIC,
-    email: EDW_COMM_EMAIL,
+    email: undefined,
     bio: EDW_COMM_BIO,
   },
   EDW_WEBM: {
     title: 'Webmaster',
     name: EDW_WEBM_NAME,
     pic: EDW_WEBM_PIC,
-    email: EDW_WEBM_EMAIL,
+    email: undefined,
     bio: EDW_WEBM_BIO,
   },
   EDW_TREA: {
     title: 'Treasurer',
     name: EDW_TREA_NAME,
     pic: EDW_TREA_PIC,
-    email: EDW_TREA_EMAIL,
+    email: undefined,
     bio: EDW_TREA_BIO,
   },
   EDW_SCRI: {
